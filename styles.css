@@ -1,0 +1,123 @@
+/**
+/* Palette
+--rose-taupe: #8C6972ff;
+--eggplant: #6E5161ff;
+--lilac: #BFAAC6ff;
+--rose-ebony: #543437ff;
+--thistle: #CEB2C9ff;
+#E0D6DE
+*/
+
+* body {
+  margin: 0;
+  text-align: center;
+  font-family: Inter Tight, serif;
+}
+
+.hero {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("images/blossom.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  padding: 40px;
+}
+
+#title {
+  margin-bottom: 0;
+  font-weight: 600;
+  background-color: #543437ff;
+  padding: 8px 12px;
+  border-radius: 10px;
+}
+
+#description {
+  font-size: 20px;
+  width: 500px;
+  background-color: #8c6972ff;
+  padding: 5px;
+  border-radius: 10px;
+  font-weight: 450;
+}
+
+.activities {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #e0d6de;
+  height: 450px;
+}
+
+#top-activities {
+  margin: 0;
+  font-weight: 550;
+  letter-spacing: 1px;
+  font-size: 25px;
+}
+
+.activity-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 16px;
+  margin-top: 0;
+}
+
+.img-radius {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+
+.activity-title {
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.activity-description {
+  line-height: 1.4;
+  font-weight: 300;
+  text-wrap: balance;
+}
+
+#guide-pfp {
+  width: 220px;
+  border-radius: 8px;
+}
+
+.guide {
+  box-shadow: 0 5px #543437ff;
+  border-radius: 8px;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  padding: 5px 15px;
+  background-color: #ceb2c9ff;
+  width: 35%;
+  margin: 50px 0;
+}
+
+#guide-title {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #543437ff;
+}
+
+#guide-description {
+  font-style: italic;
+  color: #543437ff;
+  text-wrap: balance;
+  line-height: 25px;
+}
+
+#guide-name {
+  font-size: 14px;
+  color: #543437ff;
+  letter-spacing: 0.5px;
+}
